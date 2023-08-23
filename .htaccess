@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L]
+RewriteRule ^speech-recognition/(.*)$ http://localhost:3000/$1 [P]
